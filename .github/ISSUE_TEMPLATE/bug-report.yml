@@ -1,17 +1,17 @@
 name: Bug report
-description: Report a reproducible problem with ShiftLedger.
+description: Report a reproducible problem with Rostivio.
 title: "[Bug]: "
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for helping improve ShiftLedger. This board is public.
+        Thanks for helping improve Rostivio. This board is public.
 
         Do not include earnings amounts, work schedules, payslips, screenshots with personal information, Apple Account details, purchase proof, credentials, or other sensitive data. Use the support email for private help.
   - type: input
     id: app-version
     attributes:
-      label: ShiftLedger version
+      label: Rostivio version
       description: Find it in Settings if available.
       placeholder: "1.0.0"
     validations:
