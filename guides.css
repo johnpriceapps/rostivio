@@ -1,0 +1,81 @@
+.guide-main { padding-top: 22px; }
+.breadcrumb { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; color: #676578; font-size: .82rem; }
+.breadcrumb a { color: #555167; text-underline-offset: 4px; }
+.article-heading { max-width: 970px; padding: 56px 0 44px; }
+.article-heading h1 { margin: 14px 0 22px; font-size: clamp(2.3rem, 4.8vw, 4.45rem); line-height: 1.1; letter-spacing: -.045em; text-wrap: balance; }
+.article-meta { color: #656375; font-size: .83rem; line-height: 1.8; }
+.article-meta span { padding: 0 8px; }
+.article-layout { display: grid; grid-template-columns: 220px minmax(0, 1fr); gap: clamp(35px, 6vw, 90px); align-items: start; border-top: 1px solid #ddd8e8; padding-top: 38px; }
+.article-aside { position: sticky; top: 24px; padding-right: 15px; font-size: .88rem; }
+.article-aside ol { list-style: none; padding: 0; margin: 20px 0 30px; }
+.article-aside li { margin: 0 0 18px; line-height: 1.45; }
+.article-aside a { color: #4d425e; text-decoration: none; }
+.article-aside a:hover { text-decoration: underline; text-underline-offset: 4px; }
+.article-aside .worksheet-link { display: inline-block; color: #55419d; font-weight: 700; padding-top: 22px; border-top: 1px solid #ddd8e8; }
+.article-aside > p { color: #6a6574; font-size: .8rem; }
+.article-body { min-width: 0; max-width: 740px; color: #34394a; font-size: 1.045rem; line-height: 1.85; }
+.article-body > p:first-child { color: #1e2740; font-size: 1.17rem; line-height: 1.7; margin-top: 0; }
+.article-body h2 { margin: 46px 0 18px; color: #19233a; font-size: clamp(1.45rem, 2.4vw, 1.9rem); line-height: 1.25; letter-spacing: -.03em; scroll-margin-top: 30px; text-wrap: balance; }
+.article-body h2:first-child { margin-top: 0; }
+.article-body p { margin: 0 0 20px; }
+.article-body li { padding-left: 4px; margin: 8px 0; }
+.article-body ul, .article-body ol { padding-left: 23px; margin: 20px 0 28px; }
+.article-body strong { font-weight: 700; color: #25304a; }
+.article-body a { color: #584299; text-underline-offset: 4px; text-decoration-thickness: 1px; }
+.table-scroll { overflow-x: auto; margin: 27px 0; border: 1px solid #ddd8e8; border-radius: 12px; }
+.article-body table { border-collapse: collapse; width: 100%; min-width: 470px; font-size: .88rem; line-height: 1.5; }
+.article-body th, .article-body td { text-align: left; padding: 14px 17px; border-bottom: 1px solid #e7e2ed; vertical-align: top; }
+.article-body thead { background: #eae5f3; color: #33254f; }
+.article-body tbody th { width: 40%; font-weight: 600; }
+.article-body tbody tr:last-child > * { border-bottom: 0; }
+.guide-download { padding: 55px clamp(24px, 5vw, 65px); margin: 70px 0; border-radius: 22px; background: #e8e0f4; text-align: center; }
+.guide-download h2 { font-size: clamp(1.8rem, 3.4vw, 2.75rem); letter-spacing: -.04em; line-height: 1.15; margin: 12px 0 16px; }
+.guide-download > p { max-width: 54ch; margin-left: auto; margin-right: auto; }
+.guide-download .button { margin-top: 16px; }
+.guide-download .download-note { font-size: .78rem; color: #625670; line-height: 1.7; margin-top: 18px; }
+.related-guides { margin-bottom: 78px; }
+.related-guides > h2 { font-size: 2.15rem; letter-spacing: -.035em; margin: 9px 0 30px; }
+.guide-list { display: grid; grid-template-columns: 1fr; border-top: 1px solid #ddd8e8; }
+.guide-tile { display: flex; gap: clamp(20px, 5vw, 58px); padding: 34px 6px; color: inherit; text-decoration: none; border-bottom: 1px solid #ddd8e8; transition: background-color .15s; }
+.guide-tile:hover { background: #eee8f5; }
+.guide-number { color: #7c6b9b; font-size: 1rem; min-width: 30px; padding-top: 4px; font-variant-numeric: tabular-nums; }
+.guide-tile-copy { flex: 1; }
+.guide-tile h2 { font-size: clamp(1.5rem, 2.4vw, 2rem); line-height: 1.25; letter-spacing: -.028em; margin: 10px 0; }
+.guide-tile p { color: #606172; max-width: 68ch; margin: 0 0 16px; }
+.guide-read { color: #594293; font-size: .84rem; font-weight: 700; }
+.guide-hub-heading { padding: 64px 0 55px; }
+.guide-hub-heading h1 { font-size: clamp(2.8rem, 6.5vw, 5.7rem); line-height: 1.05; letter-spacing: -.06em; margin: 20px 0 27px; }
+.guide-hub-heading .hub-lead { font-size: clamp(1.1rem, 2.1vw, 1.4rem); line-height: 1.6; color: #3e4255; }
+.guide-hub-heading > p:last-child { color: #646174; }
+.worksheet-panel { display: grid; grid-template-columns: 1.2fr 1fr; gap: 50px; align-items: center; padding: 45px; margin: 65px 0; background: #f0eaf7; border: 1px solid #ded6eb; border-radius: 20px; }
+.worksheet-panel h2 { font-size: 2rem; letter-spacing: -.035em; margin: 12px 0 16px; }
+.worksheet-panel p { color: #525267; }
+.worksheet-panel .worksheet-detail { font-size: .82rem; color: #6b6277; }
+.worksheet-actions { display: flex; flex-direction: column; gap: 13px; align-items: flex-start; }
+@media (max-width: 800px) {
+  .article-layout { grid-template-columns: 1fr; gap: 32px; }
+  .article-aside { position: static; padding: 0 0 20px; border-bottom: 1px solid #ddd8e8; }
+  .article-aside ol { display: grid; grid-template-columns: 1fr 1fr; gap: 16px 20px; margin-bottom: 8px; }
+  .article-aside li { margin: 0; }
+  .article-aside .worksheet-link, .article-aside > p { display: none; }
+  .article-heading { padding: 38px 0 24px; }
+  .worksheet-panel { grid-template-columns: 1fr; gap: 18px; padding: 30px; }
+  .guide-hub-heading { padding: 45px 0 35px; }
+}
+@media (max-width: 420px) {
+  .article-aside ol { grid-template-columns: 1fr; gap: 12px; }
+  .article-meta span { padding: 0 3px; }
+  .guide-download { margin: 45px 0; padding: 36px 18px; }
+  .worksheet-panel { padding: 24px 18px; }
+  .worksheet-actions, .worksheet-actions .button { width: 100%; }
+  .guide-tile { gap: 14px; }
+}
+@media (prefers-reduced-motion: reduce) { .guide-tile { transition: none; } }
+@media print {
+  .site-header, .site-footer, .breadcrumb, .article-aside, .guide-download, .related-guides { display: none; }
+  .article-layout { display: block; border: 0; padding-top: 0; }
+  .article-heading { padding: 0; }
+  .article-body { max-width: none; color: #000; font-size: 11pt; line-height: 1.5; }
+  .table-scroll { overflow: visible; }
+  .article-body table { min-width: 0; }
+}
