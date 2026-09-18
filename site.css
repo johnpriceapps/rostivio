@@ -109,6 +109,7 @@ button, input { font: inherit; }
 .template-symbol { display: grid; place-items: center; width: 54px; height: 68px; flex-shrink: 0; border: 1px solid #9b9fa4; border-radius: 7px; color: #50605a; font-size: .73rem; font-weight: 800; letter-spacing: .04em; background: #f7f6f2; }
 .template-copy { flex: 1; }
 .template-copy h3 { font-size: 1.22rem; margin-bottom: 8px; }
+.template-copy h2 { font-size: clamp(1.6rem, 2.6vw, 2.2rem); margin-bottom: 14px; }
 .template-copy p { color: var(--muted); font-size: .82rem; max-width: 540px; margin-bottom: 0; }
 .template-actions { display: flex; flex-direction: column; align-items: center; gap: 10px; flex-shrink: 0; }
 .template-actions .button { font-size: .78rem; min-height: 43px; padding: 11px 17px; }
@@ -169,7 +170,7 @@ button, input { font: inherit; }
   .guide-grid { gap: 14px; } .guide-card { padding: 21px 18px; }
   .guide-card h3 { font-size: 1.12rem; } .guide-card p { font-size: .8rem; } .guide-topic { font-size: .54rem; }
   .template-banner { flex-wrap: wrap; gap: 20px; }
-  .template-actions { flex-basis: 100%; flex-direction: row; justify-content: flex-start; margin-left: 74px; gap: 20px; }
+  .template-actions { flex-basis: calc(100% - 74px); flex-direction: row; justify-content: flex-start; margin-left: 74px; gap: 20px; }
   .privacy-section { gap: 30px; } .privacy-section h2 { font-size: 1.8rem; }
   .download-section { grid-template-columns: 1fr; gap: 34px; text-align: center; }
   .download-section .eyebrow { justify-content: center; }
@@ -220,7 +221,7 @@ button, input { font: inherit; }
   .template-banner { padding: 24px; gap: 15px; margin-top: 22px; }
   .template-symbol { width: 40px; height: 53px; font-size: .63rem; }
   .template-copy h3 { font-size: 1.13rem; } .template-copy p { font-size: .78rem; }
-  .template-actions { margin-left: 0; flex-direction: column; align-items: flex-start; gap: 13px; padding-top: 6px; }
+  .template-actions { flex-basis: 100%; margin-left: 0; flex-direction: column; align-items: flex-start; gap: 13px; padding-top: 6px; }
   .template-actions .button { width: 100%; font-size: .82rem; } .template-actions .text-link { align-self: center; font-size: .75rem; }
   .privacy-section { align-items: flex-start; gap: 23px; flex-direction: column; }
   .privacy-mark { width: 64px; height: 72px; border-radius: 17px; } .privacy-mark svg { width: 42px; }
